@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/*creation d'une fonction
- *fonction main
-*/
+/*creation d'une fonction main*/
 
 
 int main(void)
