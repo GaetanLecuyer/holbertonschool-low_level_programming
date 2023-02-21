@@ -3,20 +3,22 @@
 /**
  * main - print the letters of the alphabet
  *
- * Description: print the letters of the alphabet in lower then in uppercase
+ * Description: print the letters of the alphabet
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-  char c;
+	int i = 97;
 
-  for (c = 'a'; c <= 'z'; c++) {
-    putchar(c);
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar(10);
+
+	return (0);
 }
 
-  putchar('\n');
-
-  return 0;
-}
