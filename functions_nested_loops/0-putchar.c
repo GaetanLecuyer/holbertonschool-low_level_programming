@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*creation d'une fonction main*/
-
+/*main -print putchat */
 
 int main(void)
 {
