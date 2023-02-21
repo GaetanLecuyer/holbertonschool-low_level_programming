@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*creatio d'une fonction*/
+/*creation d'une fonction
+ *fonction main
+*/
 
 
 int main(void)
@@ -14,5 +16,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-    return 0;
+return (0);
 }
