@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-//creation de ma fonction
+/*creatio d'une fonction*/
+
 
 int main(void)
 {

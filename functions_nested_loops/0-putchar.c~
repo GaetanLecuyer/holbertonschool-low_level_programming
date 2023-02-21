@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-* main - prints Holberton
- *
- * Description: prints Holberton
- *
- * Return: 0 (Success)
- */
+//creation de ma fonction
 
 int main(void)
 {
@@ -19,4 +14,4 @@ int main(void)
     putchar('r');
     putchar('\n');
     return 0;
-}y
+}
