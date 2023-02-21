@@ -8,24 +8,14 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
-	int i, j;
+int main(void) {
+  char c;
 
-	i = 97;
-	j = 65;
+  for (c = 'a'; c <= 'z'; c++) {
+    putchar(c);
+  }
 
-	while (i < 123)
-	{
-		putchar(i);
-		i++;
-	}
+  putchar('\n');
 
-	while (j < 91)
-	{
-		putchar(j);
-		j++;
-	}
-
-	return (0);
+  return 0;
 }
