@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_alphabet - print alphabet
@@ -6,6 +6,7 @@
  * Return: void
  */
 int main(void)
+{
 void print_alphabet_x10(void)
 {
     int i, j;

@@ -1,22 +1,15 @@
 #include <stdio.h>
+/*ceation fonction main */
+/*print_alphaber */
 
-/**
- * print_alphabet - print alphabet
- *
- * Return: void
- */
-int main(void)
-void print_alphabet_x10(void)
+
+void print_alphabet(void)
 {
-    int i, j;
+    int i;
     
-    for (i = 0; i < 10; i++)
+    for (i = 'a'; i <= 'z'; i++)
     {
-        for (j = 'a'; j <= 'z'; j++)
-        {
-            _putchar(j);
-        }
-        _putchar('\n');
+        _putchar(i);
     }
-}
+    _putchar('\n');
 }
