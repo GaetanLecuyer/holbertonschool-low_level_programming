@@ -9,13 +9,17 @@ int main(void)
 {
 void print_alphabet()
 {
-	char letter = 'a';
-
-	while (letter <= 'z')
-	{
-		putchar(letter);
-		letter++;
-	}
-	 putchar('\n');
+void print_alphabet_x10(void)
+{
+    int i, j;
+    
+    for (i = 0; i < 10; i++)
+    {
+        for (j = 'a'; j <= 'z'; j++)
+        {
+            _putchar(j);
+        }
+        _putchar('\n');
+    }
 }
 }
