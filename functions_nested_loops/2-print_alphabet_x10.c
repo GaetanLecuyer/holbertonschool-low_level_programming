@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - check the code.
+ * print_alphabet_x10 - print alphabet 10 times
  *
- * Return: Always 0.
+ * Return: void
  */
-int print_alphabet_x10(void)
+
+void print_alphabet_x10(void)
 {
 	int round = 0;
 	char letter = 'a';
