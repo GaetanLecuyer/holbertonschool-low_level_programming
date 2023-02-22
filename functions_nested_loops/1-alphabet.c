@@ -1,16 +1,19 @@
-#include <stdio.h>
-#include "main.h"
-/*ceation fonction main */
-/*print_alphaber */
+#include "holberton.h"
 
+/**
+ * print_alphabet - print alphabet
+ *
+ * Return: void
+ */
 
 void print_alphabet(void)
 {
-    int i;
-    
-    for (i = 'a'; i <= 'z'; i++)
-    {
-         putchar(i);
-    }
-     putchar('\n');
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
