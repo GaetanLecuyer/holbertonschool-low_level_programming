@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /*ceation fonction main */
 /*print_alphaber */
 
