@@ -1,13 +1,18 @@
 #include "main.h"
-/**
- *cearte by gaetan 
- *nothing retourn
- *@a: firt integer
- *@b: second integer 
- */
 
+/**
+ * swap_int - swaping 2 integer using a pointer
+ * @a:integer
+ * @b:integer
+ * Return:void
+ */
 void swap_int(int *a, int *b)
-{int tmp = *a;
-  *a = *b;
-  *b = tmp;
+{
+	int x;
+
+	x = *a;
+	*a = *b;
+	*b = x;
+	return;
+
 }
