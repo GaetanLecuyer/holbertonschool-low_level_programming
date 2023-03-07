@@ -1,6 +1,12 @@
+/*code by gaetan*/
+/*main.h is a ibrery of the fonction */
 #include "main.h"
-/*librert to declare in fonction*/
-
+/*n in the output of the main.c*/
+/*mul is a quntificateur mutipliacateur of the value of n */
+/*if is cndition for number negative*/
+/*else a condition for number positive*/
+/*mul and fcatorial calcul la factorisatiion*/
+/*revoie la factorisation*/
 
 int factorial(int n)
 {
