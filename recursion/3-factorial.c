@@ -4,18 +4,15 @@
 
 int factorial(int n)
 {
+    int mul;
+
     if (n < 0)
-{
-                return(-1);
-}
-     else if (n == O)
-{
-               return(1);
-}
-    else 
-{
-                    int mul;
-                    mul = factorial(n - 1);
-                    return(n * mul);
-}  
+         return(-1);
+
+     else if (n >= 0 && n <= 1)
+            return(1);
+
+        mul = factorial(n - 1);
+
+        return(n * mul);  
 }
