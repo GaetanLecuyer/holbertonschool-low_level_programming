@@ -10,6 +10,7 @@
 
 #include <stddef.h>
 
+int _sqrt_recursion(int n);
 int factorial(int n);
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
