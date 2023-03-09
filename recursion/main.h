@@ -10,6 +10,7 @@
 
 #include <stddef.h>
 
+int is_prime_number(int n);
 int _sqrt_recursion(int n);
 int factorial(int n);
 int _putchar(char c);
