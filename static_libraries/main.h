@@ -1,8 +1,5 @@
-#ifndef _MAIN.H
-#define _MAIN.H
-
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
  * File: holberton.h
