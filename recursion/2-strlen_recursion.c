@@ -1,21 +1,25 @@
-#include "main.h"
-#include "string.h"
-/*prog by gaetan Lecuyer*/
-/*main.h is a bibliotheque*/
-/*string.h is a bibliatheque of the sting*/
-/*char is a character chain of a pointer *s*/
-/*int _strlen_recursion(char *s) is a fonction*/
+/*
+ * File: 2-strlen_recursion.c
+ * Auth: LecueyrGaetan
+ */
 
+#include "main.h"
+
+/**
+ * _strlen_recursion - Returns the length of a string.
+ * @s: The string to be measured.
+ *
+ * Return: The length of the string.
+ */
 int _strlen_recursion(char *s)
 {
-    int len = 0;
+	int len = 0;
 
-    if (*s)
-    {
-        len ++;
-        len += _strlen_recursion(s + 1);
-    }
+	if (*s)
+	{
+		len++;
+		len += _strlen_recursion(s + 1);
+	}
 
-    return(len);
-    
+	return (len);
 }
