@@ -1,24 +1,28 @@
-/*code by gaetan*/
-/*main.h is a ibrery of the fonction */
-#include "main.h"
-/*n in the output of the main.c*/
-/*mul is a quntificateur mutipliacateur of the value of n */
-/*if is cndition for number negative*/
-/*else a condition for number positive*/
-/*mul and fcatorial calcul la factorisatiion*/
-/*revoie la factorisation*/
+/*
+ * 3-factorial.c
+ * Auth: LecuyerGaetan
+ */
 
+#include "main.h"
+
+/**
+ * factorial - Returns the factorial of a given number.
+ * @n: The number to find the factorial of.
+ *
+ * Return: If n > 0 - the factorial of n.
+ *         If n < 0 - 1 to indicate an error.
+ */
 int factorial(int n)
 {
-    int mul;
+	int result = n;
 
-    if (n < 0)
-         return(-1);
+	if (n < 0)
+		return (-1);
 
-     else if (n >= 0 && n <= 1)
-            return(1);
+	else if (n >= 0 && n <= 1)
+		return (1);
 
-        mul = factorial(n - 1);
+	result *= factorial(n - 1);
 
-        return(n * mul);  
+	return (result);
 }
