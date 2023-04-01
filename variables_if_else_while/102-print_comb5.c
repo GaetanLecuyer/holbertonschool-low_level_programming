@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(void)
+int main(int j; int i;)
 {
     int i , j;
   
