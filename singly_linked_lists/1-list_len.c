@@ -16,7 +16,7 @@ size_t list_len(const list_t *h);
 {
     size_t conte;
 
-    while (h)
+    while(h)
     {
         conte++;
         h = h->next;
